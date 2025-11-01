@@ -9,7 +9,7 @@ const app = express();
 
 app.use(express.json());  
 
-mongoose.connect('mongodb+srv://rajeevyadavraju70_db_user:sPIL7YmxarS4fgts@cluster0.da9dus8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
